@@ -15,7 +15,7 @@ class TestAskMe(unittest.TestCase):
         response = self.app.get('/askme', follow_redirects=True)
         self.assertEqual(response.status_code, 200)
     
-    #def test_num_docs(self):
-        #self.assertEqual(len(convert_to_list("qa/dataset/Answers.txt")), 2609)
+    # def test_num_docs(self):
+        # self.assertEqual(len(convert_to_list("qa/dataset/Answers.txt")), 2609)
 
 
