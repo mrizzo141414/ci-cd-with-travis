@@ -23,11 +23,11 @@ jobs:
  # - name: Python 3.8.0 on Bionic Linux
    # python: 3.8
    # dist: bionic
-  - name: Python 3.7.4 on Xenial Linux
+  name: Python 3.7.4 on Xenial Linux
     python: 3.7
   #- name: Python 3.8 dev on Xenial Linux
    # python: 3.8-dev
-   # script:
+   script:
     - exit 1
   - stage: Tests in other Platforms
     name: Python 3.7.4 on macOS
