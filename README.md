@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.com/axel-sirota/ci-cd-with-travis.svg?branch=master)](https://travis-ci.com/axel-sirota/ci-cd-with-travis)
 
 Sample Flask app for Getting Started with Travis CI Course at Pluralsight
-test
+test test
 
 This app is a simple nlp-based question-answering with web interface, based on https://sweetcode.io/flask-app-github-travis-heroku/, and extended on the travis side to test in parallel multiple OS, multiple versions and have multiple types of deployment.
 
